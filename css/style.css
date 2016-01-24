@@ -4,6 +4,16 @@ body {
   body h1 {
     color: #FF0000; }
 
+img {
+  border-radius: 50%;
+  border: 4px solid #00892b;
+  transition: all 1s ease; }
+  img:hover {
+    transform: rotate(360deg) scale(1.2);
+    opacity: 1.5;
+    transition: all 1.5s ease;
+    -webkit-filter: hue-rotate(240deg) saturate(3.3); }
+
 #team-members {
   clear: both; }
   #team-members .member {
